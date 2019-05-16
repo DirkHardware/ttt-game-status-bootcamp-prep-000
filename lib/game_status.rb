@@ -31,12 +31,12 @@ def won?(board)
   end
 end
 
-def over?(board)
-  won?(board)
-end
+# def over?(board)
+#   won?(board)
+# end
 
-def winner(player)
-  return player
-end
+# def winner(player)
+#   return player
+# end
 # Define your WIN_COMBINATIONS constant
 # board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
