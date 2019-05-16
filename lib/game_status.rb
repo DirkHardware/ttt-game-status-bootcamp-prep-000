@@ -32,6 +32,7 @@ end
 def over?(board)
   while won?(board) == false
     return false
+  end
   if won?(board) == true
     return true
   end
