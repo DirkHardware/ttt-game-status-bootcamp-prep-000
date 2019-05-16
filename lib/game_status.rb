@@ -31,7 +31,6 @@ end
 
 def over?(board)
   won?(board)
-  end
 end
 
 
