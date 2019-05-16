@@ -34,6 +34,8 @@ def over?(board)
     return false
   if won?(board) == true
     return true
+  end
+end
 
 
 # Define your WIN_COMBINATIONS constant
