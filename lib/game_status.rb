@@ -37,6 +37,6 @@ end
 
 def winner(player)
   return player
-# Define your WIN_COMBINATIONS constant
 end
+# Define your WIN_COMBINATIONS constant
 # board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
