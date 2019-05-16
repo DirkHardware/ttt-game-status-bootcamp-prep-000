@@ -20,10 +20,10 @@ def won?(board)
   while counter < 9
   WIN_COMBINATIONS.all? do
     if board[WIN_COMBINATIONS[counter][0]] == 'X' && board[WIN_COMBINATIONS[counter][1]] == 'X' && board[WIN_COMBINATIONS[counter][2]] == 'X'
-      winner('X')
+      # winner('X')
       return WIN_COMBINATIONS[counter]
     elsif board[WIN_COMBINATIONS[counter][0]] == 'O' && board[WIN_COMBINATIONS[counter][1]] == 'O' && board[WIN_COMBINATIONS[counter][2]] == 'O'
-      winner('O')
+      # winner('O')
       return WIN_COMBINATIONS[counter]
     else
       counter += 1
