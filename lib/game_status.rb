@@ -29,6 +29,13 @@ def won?(board)
   end
 end
 
+def over?(board)
+  while won?(board) == false
+    return false
+  if won?(board) == true
+    return true
+
+
 # Define your WIN_COMBINATIONS constant
 end
 # board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
